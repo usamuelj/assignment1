@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&family=Roboto:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  display: flex;
+}
+
+.first-column {
+  background-color: hsl(31, 77%, 52%);
+  width: 100%;
+  padding: 2em;
+  height: 60vh;
+}
+.first-column h2 {
+  padding: 0.6em 1em;
+  margin: 0 0.5em;
+  color: white;
+  height: 5vh;
+}
+.first-column p {
+  padding: 2em 1em;
+  margin: 0 -1em;
+  color: rgb(237, 221, 221);
+  display: inline-flex;
+}
+
+.sed {
+  display: flex;
+  height: 5vh;
+}
+
+.btn-submit {
+  padding: 10px;
+  margin: 1em 0;
+  border-radius: 5em;
+}
+
+.mid-content {
+  background-color: hsl(184, 100%, 22%);
+  width: 100%;
+  padding: 2em 2em;
+  margin: auto;
+  height: 60vh;
+}
+.mid-content h2 {
+  padding: 0.6em 1em;
+  margin: 0 0.5em;
+  color: white;
+  height: 5vh;
+}
+.mid-content p {
+  padding: 2em 1em;
+  margin: 0 -1em;
+  color: rgb(237, 221, 221);
+  display: inline-flex;
+}
+
+.sed {
+  display: flex;
+  height: 5vh;
+}
+
+.btn-submitt {
+  padding: .0em 2em;
+  margin: .1em 2em;
+  display: inline-block;
+  justify-content: left;
+  cursor: pointer;
+  
+  
+
+  border-radius: 5em;
+}
+
+.bottom-cont {
+  background-color: hsl(179, 100%, 13%);
+  width: 100%;
+  padding: 2em;
+  height: 60vh;
+}
+.bottom-cont h2 {
+  padding: 0.6em 1em;
+  margin: 0 0.5em;
+  color: white;
+  height: 5vh;
+}
+.bottom-cont p {
+  padding: 2em 1em;
+  margin: 0 -1em;
+  color: rgb(237, 221, 221);
+  display: inline-flex;
+}
+
+.sed {
+  display: flex;
+  height: 5vh;
+}
+
+.btn-submit {
+  padding: 10px;
+  margin: 1em 0;
+  border-radius: 5em;
+  background-color: none;
+}
